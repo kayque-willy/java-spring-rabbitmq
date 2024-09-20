@@ -1,0 +1,9 @@
+services:
+
+  rabbitmq:
+    image: "rabbitmq:management"
+    container_name: rabbitmq
+    network_mode: bridge
+    ports:
+      - 5672:5672
+      - 15672:15672
