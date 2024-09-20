@@ -7,9 +7,9 @@ Esse projeto é uma demonstração de produção e consumo de mensagens do Rabbi
 
     $ docker compose up -d
 
-## ENVIAR MENSAGENS
+## Enviar Mensagens
 
-### Endpoint para geração da mensagem no Producer
+### Endpoint para geração da mensagem no Client-Backend
 
     POST localhost:8080/mensagens
 
